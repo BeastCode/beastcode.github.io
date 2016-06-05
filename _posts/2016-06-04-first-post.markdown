@@ -3,6 +3,7 @@ layout: post
 title:  "First Post!"
 date:   2016-06-04 17:58:28 -0700
 categories: jekyll update
+comments: true
 ---
 Test:
 
