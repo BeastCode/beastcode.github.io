@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: comment
 title:  "First Post!"
 date:   2016-06-04 17:58:28 -0700
 categories: jekyll update
@@ -7,7 +7,15 @@ comments: true
 ---
 Test:
 
-{% highlight typescript %}
+| Template syntax | Angular 2 | React | 
+| -----|:----:|-----:|
+| Binds property value to the result of expression firstName. | {% highlight javascript %}<input [value]="firstName">{% endhighlight %} | test |         
+| test | test | test |
+| test | test | test |
+| test | test | test |
+
+
+{% highlight javascript %}
 import { Component } from '@angular/core';
 import { RouteConfig, ROUTER_DIRECTIVES } from '@angular/router';
 import { UsersRoute } from './users/routes/UsersRoute/UsersRoute';
