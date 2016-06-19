@@ -206,3 +206,8 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+#categories:
+#  portfolio:
+#    output: true
+#    permalink: /:categories/:path/
